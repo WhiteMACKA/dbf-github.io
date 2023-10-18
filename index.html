@@ -1,75 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Tenor+Sans&display=swap" rel="stylesheet">
-
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <title>dbf.com</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
 </head>
-
 <body>
+    <div class="wrapepr">
+        <div class="form">
+            <form action="">
+                <div class="full_name">
+                    <label for="full_name">ФИО</label>
+                    <input id="full_name" type="text" placeholder="Введите ФИО">
+                </div>
+                <div class="post">
+                    <label for="post">Должность</label>
+                    <input id="post" type="text" placeholder="Введите Должность">
+                </div>
+                <div class="phone">
+                    <label for="phone">Телефон</label>
+                    <input id="phone" type="tel" placeholder="Введите Телефон">
+                </div>
+                
 
-    <a class="anchor" onclick="slowScroll('#main-block')" href="#main-block">&#8593;</a>
-
-    <section id="main-block" class="block-1">
-       <div class="container">
-           <div class="heading clearfix">
-                <nav>
-                    <ul class="menu">
-                        <li>
-                            <a href="#">main</a>
-                        </li>
-                        <li>
-                            <a href="#">contakts</a>
-                        </li>
-                    </ul>
-                </nav>
-           </div> <!--end heading-->
-           <a id="red-b" class="red-button" onclick="slowScroll('#schemes-block')" href="#schemes-block">Go next</a>
-        </div> <!--end container-->
-
-        <div class="center-text-and-line">
-           <div class="red-line"></div> <!--end red-line-->
-           <div id="id-text-red-line" class="text-red-line"><!--...--></div>
-           <div id="center" class="center-text">
-                       Dobrush paper <br>
-                       factory <br>
-                       "Hero of labor"
-           </div> <!--end cetner-text-->
-       </div> <!--end center-text-and-line-->
-
-    </section>
-
-    <section>
-        <div class="container-100">
-           <div class="copyright">
-                © Dobrush paper factory "Hero of Labor"
-           </div>
+                <button type="action">Зарегистрировать</button>
+            </form>
         </div>
-    </section>
-
-    <section id="schemes-block" class="block-2">
-        <div class="container">
-            <div class="text-schemes">
-                Scheme
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container-100">
-           <div class="copyright">
-                © Dobrush paper factory "Hero of Labor"
-           </div>
-        </div>
-    </section>
-
-    <script src="js/main.js" defer></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    </div>
 </body>
-
 </html>
